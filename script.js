@@ -186,6 +186,7 @@ function nombreCliente(cliente){
    }else{
     console.log("vuelva pronto")
    }
+   
 }
 nombreCliente(input)
 
