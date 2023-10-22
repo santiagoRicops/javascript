@@ -173,29 +173,29 @@ function paramsWithReturn(param) {
 paramsWithReturn(5)
 
 //console.log(prompt("Mi argumento para prompt"))
- const input =  prompt("ingrese el nombre de usuario")
-function nombreCliente(cliente){
+//  const input =  prompt("ingrese el nombre de usuario")
+// function nombreCliente(cliente){
    
-    if("") {
-        console.log(true);
-    } else {
-        console.log(false);
-    }
-   if (cliente){
-    console.log(cliente) 
-   }else{
-    console.log("vuelva pronto")
-   }
-   
-
+//     if("") {
+//         console.log(true);
+//     } else {
+//         console.log(false);
+//     }
+//    if (cliente){
+//     console.log(cliente) 
+//    }else{
+//     console.log("vuelva pronto")
+//    }
    
 
    
-}
-nombreCliente(input)
 
-console.log("" === false);
-// hacer una funcion que se llame nombre de cliente y reciba un parametro llamado cliente debe de venir de un prom si le doy aceptar me da el nombre del usuario y si le doy cancelar me dice vuelva pronto
+   
+// }
+// nombreCliente(input)
+
+// console.log("" === false);
+// // hacer una funcion que se llame nombre de cliente y reciba un parametro llamado cliente debe de venir de un prom si le doy aceptar me da el nombre del usuario y si le doy cancelar me dice vuelva pronto
 
 console.log("=================================================================================== FOR ============================================");
 
@@ -255,3 +255,8 @@ console.log('FALSE');
 for(const posicionDeCaracter of frase) {
 console.log(posicionDeCaracter);
 }
+// Array
+
+const myArray = [10, true, "String", [1, [5]]] // array
+
+console.log(myArray[3][1][0]);
