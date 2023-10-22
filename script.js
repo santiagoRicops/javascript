@@ -196,3 +196,62 @@ nombreCliente(input)
 
 console.log("" === false);
 // hacer una funcion que se llame nombre de cliente y reciba un parametro llamado cliente debe de venir de un prom si le doy aceptar me da el nombre del usuario y si le doy cancelar me dice vuelva pronto
+
+console.log("=================================================================================== FOR ============================================");
+
+
+
+// bucles, loo´ps
+
+// 1. inicializar el valor inicial 
+// 2. una condicion
+// 3. incrementar o decrementar
+for(let index = 0; index <= 10; index++) {
+   
+    console.log(index);
+}
+
+let v = "Hola"
+
+v  += "Mundo"
+
+console.log(v);
+for(let contador = 2; contador <= 50; contador += 2){
+    console.log(contador);
+}
+// string
+// array
+// set
+
+// number
+// booleano
+// objetops
+for (let contadorCincoEnCinco = 5; contadorCincoEnCinco <= 100; contadorCincoEnCinco += 5 ){
+    console.log(contadorCincoEnCinco);
+}
+
+
+let frase = "Frase poetica ajdsfhakjshdakjshdkashdkajhsdkjashdjkahdjksahjdkh"
+
+console.log();
+console.log(frase[6]);
+
+
+for(let char = 0; char < frase.length; char++) {
+const miFrase = frase[char]
+    if(miFrase === "a") {
+        continue
+    }
+    console.log(miFrase);
+}
+let index = 0;
+
+while(index < 10) {
+    index += 1
+    console.log('TRUE', frase[index]);
+}
+console.log('FALSE');
+
+for(const posicionDeCaracter of frase) {
+console.log(posicionDeCaracter);
+}
